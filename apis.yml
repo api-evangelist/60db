@@ -1,22 +1,62 @@
 aid: 60db
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/60db.png
 name: 60dB
-description: 60dB is a company surfaced as a portfolio company of bloomberg-beta and added to the API
-  Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  60dB was a personalized short-form audio and podcast application built by Tiny
+  Garage Labs, founded in 2016 by John Ciancutti, Steve Henn, and Steve McLendon.
+  The app curated and recommended short radio-style audio stories tailored to a
+  listener's habits, and was available on iOS, Android, and the web as well as
+  through Alexa, Android Auto, and CarPlay. It was backed by Bloomberg Beta,
+  Khosla Ventures, and Rivet Ventures. Google acqui-hired the founding team in
+  October 2017 and the 60dB service was shut down on November 10, 2017. The
+  company is defunct and publishes no developer program, API, or machine-readable
+  interface today; the 60db.com domain now resolves to a parked placeholder page.
+  This profile is retained as a historical portfolio-company record for the API
+  Evangelist network.
 url: https://raw.githubusercontent.com/api-evangelist/60db/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
 - bloomberg-beta
+x-investors:
+- bloomberg-beta
+- khosla-ventures
+- rivet-ventures
+x-parent-company: Tiny Garage Labs
+x-acquired-by: google
+x-status: defunct
 x-tier: stub
-x-tier-reason: portfolio-lead
+x-tier-reason: portfolio-lead-defunct
 specificationVersion: '0.20'
 created: '2026-07-17'
 modified: '2026-07-17'
 tags:
 - Company
+- Audio
+- Podcasting
+- Media
+- Personalization
+- Defunct
+- Acquired
 apis: []
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
